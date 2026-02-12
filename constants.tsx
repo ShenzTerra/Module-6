@@ -2,7 +2,7 @@ import React from 'react';
 import { QuizQuestion } from './types';
 
 // Easy to change asset URLs
-export const LOGO_URL = '/Million Coders Logo_BLK.png';
+export const LOGO_URL = 'Million Coders Logo_BLK.png';
 export const CLAY_COLORS = {
   BLUE: '#40c4ff',
   RED: '#ff5252',
