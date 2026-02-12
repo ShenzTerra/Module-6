@@ -155,7 +155,6 @@ const App: React.FC = () => {
         </div>
         <div className="hidden lg:flex items-center gap-3">
            <img src={LOGO_URL} alt="Million Coders Icon" className="h-12 w-auto" />
-           <img src={LOGO_TEXT_URL} alt="Million Coders" className="h-10 w-auto brightness-0 invert" />
         </div>
       </div>
 
