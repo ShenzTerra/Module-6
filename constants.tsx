@@ -1,7 +1,6 @@
 import React from 'react';
 import { QuizQuestion } from './types';
 import MillionCodersLogo from './assets/Million_Coders_Logo_BLK.png';
-import MillionCodersText from './assets/Million_Coders_Text_BLK.png';
 
 // Easy to change asset URLs
 export const LOGO_URL = MillionCodersLogo;
