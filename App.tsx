@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { GameLevel, GameState } from './types';
-import { CLAY_COLORS, LEVEL_INFO, BotIcon, StarIcon, QUIZ_QUESTIONS, LOGO_URL, LOGO_TEXT_URL } from './constants';
+import { CLAY_COLORS, LEVEL_INFO, BotIcon, StarIcon, QUIZ_QUESTIONS, LOGO_URL } from './constants';
 import { audioService } from './services/audioService';
 import ClayButton from './components/ClayButton';
 
@@ -154,7 +154,8 @@ const App: React.FC = () => {
           )}
         </div>
         <div className="hidden lg:flex items-center gap-3">
-           <img src={LOGO_URL} alt="Million Coders Icon" className="h-12 w-auto" />
+           <img src={LOGO_URL} alt="Logo" className="w-10 h-10 rounded-xl bg-slate-800 p-1 border border-slate-600 shadow-lg" />
+           <h1 className="text-xl font-black text-slate-100 uppercase tracking-tighter">Coding Studio</h1>
         </div>
       </div>
 
