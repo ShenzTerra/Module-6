@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { GameLevel, GameState } from './types';
-import { CLAY_COLORS, LEVEL_INFO, BotIcon, StarIcon, QUIZ_QUESTIONS, LOGO_URL } from './constants';
+import { CLAY_COLORS, LEVEL_INFO, BotIcon, StarIcon, QUIZ_QUESTIONS, LOGO_URL, LOGO_TEXT_URL } from './constants';
 import { audioService } from './services/audioService';
 import ClayButton from './components/ClayButton';
 
@@ -155,7 +155,7 @@ const App: React.FC = () => {
         </div>
         <div className="hidden lg:flex items-center gap-3">
            <img src={LOGO_URL} alt="Million Coders Icon" className="h-12 w-auto" />
-           <img src="/Million_Coders_Text_BLK.png" alt="Million Coders" className="h-10 w-auto brightness-0 invert" />
+           <img src={LOGO_TEXT_URL} alt="Million Coders" className="h-10 w-auto brightness-0 invert" />
         </div>
       </div>
 
